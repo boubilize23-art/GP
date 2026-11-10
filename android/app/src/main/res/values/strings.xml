@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">GestioPro</string>
+    <string name="title_activity_main">GestioPro</string>
+    <string name="package_name">com.gestiopro.app</string>
+    <string name="custom_url_scheme">com.gestiopro.app</string>
+</resources>

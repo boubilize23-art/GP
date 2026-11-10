@@ -1,0 +1,7 @@
+node_modules
+dist
+android
+preview-5180.log
+.env.local
+*.log
+.vercel

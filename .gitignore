@@ -1,0 +1,44 @@
+# ─── Dépendances et build ─────────────────────────────────────────────────────
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# ─── Secrets ─────────────────────────────────────────────────────────────────
+# .env, .env.local, .env.production… : JAMAIS versionnés.
+# Le jeton Vercel OIDC et les clés Supabase vivent ici.
+.env*
+!.env.example
+
+# ─── Vercel ──────────────────────────────────────────────────────────────────
+# Dossier de liaison : il contient l'identifiant du projet Vercel.
+.vercel
+
+# ─── Android (Capacitor) ─────────────────────────────────────────────────────
+# Le projet Android EST versionné (il est nécessaire pour construire l'APK),
+# mais pas les artefacts de build ni les fichiers générés par « cap sync ».
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/capacitor-cordova-android-plugins/
+android/app/src/main/assets/public/
+android/app/src/main/assets/capacitor.config.json
+android/app/src/main/assets/capacitor.plugins.json
+android/app/release/
+android/.idea/
+*.apk
+*.aab
+*.keystore
+*.jks
+
+# ─── Exploration / brouillons ────────────────────────────────────────────────
+brand/_candidates/
+
+# ─── Divers ──────────────────────────────────────────────────────────────────
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
